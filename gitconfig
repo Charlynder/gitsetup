@@ -1,0 +1,42 @@
+#!/bin/zsh
+
+## add user info
+
+echo "Add user info \n"
+echo "adding user..."
+git config --global user.name "Christian Alvarez"
+git config --global user.email "alvarez.christian46@outlook.com"
+sleep 2 
+echo "Done ✅ \n"
+sleep 1
+
+## make git aliases
+
+echo "Making alias \n"
+echo "set commit to c..."
+git config --global alias.c "commit"
+sleep 1
+
+echo "set add to a..."
+git config --global alias.a "add"
+sleep 1
+
+echo "set push to p"
+git config --global alias.p "push"
+sleep 1
+
+echo "set pull to pl..."
+git config --global alias.pl "pull"
+sleep 1
+
+echo "set branch to b..."
+git config --global alias.b "branch"
+sleep 1
+
+echo "set checkout to ch..."
+git config --global alias.ch "checkout"
+sleep 1
+echo "Done ✅ \n"
+
+echo "finished! ✅"
+
